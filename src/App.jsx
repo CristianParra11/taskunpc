@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import ListaTareas from "./components/ListaTareas";
+
 function App() {
   return (
     <div>
-      <h1>TaskUPC — Gestor Académico</h1>
+      <Header />
+      <ListaTareas />
     </div>
   );
 }
